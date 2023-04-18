@@ -1,20 +1,58 @@
-body {
-    background-color: #f2f2f2;
+::selection {
+    background: #ffb7b7; /* Safari */
   }
+  
 
-.header_container{
-    font-family: "Sofia Sans";
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
+body {
+  background-color: #f2f2f2;
 }
 
-.header_container h1{
-    margin-top: 15;
+.header_container {
+  font-family: "Sofia Sans";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.header_container h2{
-    margin-top: -40;
-    font-size: 25px;
-    color: #ee1750;
+.header_container h1 {
+  margin-top: 15;
+}
+
+.header_container h2 {
+  margin-top: -40;
+  font-size: 25px;
+  color: #ee1750;
+}
+
+li {
+  list-style-type: none;
+}
+
+.precalc_info {
+  font-family: "Sofia Sans";
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.precalc_li {
+  background-color: white;
+  border-radius: 30px;
+  width: 280px;
+  height: 185px;
+  line-height: 40px;
+  /* font-size: 30px; */
+}
+
+.precalc_number {
+  color: #ee1750;
+  font-size: 50px;
+  margin: 25px;
+}
+
+.precalc_info {
+  margin: -25px 25px;
+  font-size: 18px;
+  line-height: 1.4em;
 }
