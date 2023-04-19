@@ -84,12 +84,13 @@ li {
 
 .basic_input {
   font-size: 14px;
-  padding: 10px 66px 10px 14px;
+  padding: 10px 10px 10px 14px;
   border-width: 1px;
   border-color: #CCCCCC;
   background-color: #FFFFFF;
   border-style: solid;
   border-radius: 14px;
+  width: 260px;
 }
 
 
@@ -101,7 +102,7 @@ li {
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family:"Sofia Sans";
   font-size: 14px;
   line-height: 1.15;
   overflow: visible;
