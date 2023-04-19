@@ -90,7 +90,6 @@ li {
   background-color: #FFFFFF;
   border-style: solid;
   border-radius: 14px;
-  margin-top: -50px;
 }
 
 
@@ -136,3 +135,18 @@ li {
   background-color: #ee1750;
   border-color: #ee1750;
 } */
+
+input:focus{
+  outline:none;
+  border-color: #ee1750;
+}
+
+.weight_input{
+  padding: 10px 0px 10px 14px;
+  width:120px;
+}
+
+.gabarit_input{
+  padding: 10px 0px 10px 14px;
+  width:105px;
+}
