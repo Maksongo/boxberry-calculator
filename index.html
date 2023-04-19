@@ -19,12 +19,13 @@
   </head>
 
   <header>
+    <div class="page_container">
     <div class="header_container">
       <a class="boxberry_logo_header" href="https://boxberry.ru/"
         ><img
-          style="display: block; margin: 0 auto"
           src="img/logo-boxberry.png"
-          width="20%"
+
+          width="400px"
           alt="Логотип boxberry"
       /></a>
       <h1>КАЛЬКУЛЯТОР ДОСТАВКИ</h1>
@@ -32,27 +33,49 @@
     </div>
   </header>
 
-  <ul class="precalc_info">
-    <li class="precalc_li">
-      <p class="precalc_number">1</p>
-      <p class="precalc_info">Введите в калькуляторе населенный пункт отправителя и получателя заказа</p>
-    </li>
-    <li class="precalc_li">
-      <p class="precalc_number">2</p>
-      <p class="precalc_info">Укажите вес и размер вашего отправления
-      </p>
-    </li>
-    <li class="precalc_li">
-      <p class="precalc_number">3</p>
-      <p class="precalc_info">Так-же вы можете выбрать необходимые дополнительные услуги
-      </p>
-    </li>
-    <li class="precalc_li">
-      <p class="precalc_number">4</p>
-      <p class="precalc_info">Нажмите на кнопку «Рассчитать»
-      </p>
-    </li>
-  </ul>
+  <body>
+    <ul class="precalc_info">
+      <li class="precalc_li">
+        <p class="precalc_number">1</p>
+        <p class="precalc_info">
+          Введите в калькуляторе населенный пункт отправителя и получателя
+          заказа
+        </p>
+      </li>
+      <li class="precalc_li">
+        <p class="precalc_number">2</p>
+        <p class="precalc_info">Укажите вес и размер вашего отправления</p>
+      </li>
+      <li class="precalc_li">
+        <p class="precalc_number">3</p>
+        <p class="precalc_info">
+          Так-же вы можете выбрать необходимые дополнительные услуги
+        </p>
+      </li>
+      <li class="precalc_li">
+        <p class="precalc_number">4</p>
+        <p class="precalc_info">Нажмите на кнопку «Рассчитать»</p>
+      </li>
+    </ul>
 
-  <body></body>
+    <div class="calc_container">
+        <div class="calc_content">
+        <h2>Направление посылки</h1>
+        <input class="basic_input" type="text" placeholder="Откуда">
+        <input class="basic_input" type="text" placeholder="Куда">
+        <h2>Вес и размер отправления</h1>
+        <p>Максимальный вес отправления – 15 кг, размер – 120х80х50 см.</p>
+        <input class="basic_input" type="text" placeholder="Вес, кг">
+        <input type="text">
+        <button class="button-26">Рассчитать</button>
+    </div>
+    <div class="calc_dop_content">
+      <h2>Дополнительные услуги</h1>
+      <p>Если вам известна объявленная стоимость и сумма к оплате, укажите их ниже. Необязательно к заполнению.</p>
+      <input class="basic_input" type="text">
+      <input class="basic_input" type="text">
+    </div>
+    </div>
+</div>
+  </body>
 </html>

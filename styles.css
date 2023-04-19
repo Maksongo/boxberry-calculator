@@ -1,10 +1,10 @@
 ::selection {
-    background: #ffb7b7; /* Safari */
-  }
-  
+  background: #ffb7b7; /* Safari */
+}
 
 body {
   background-color: #f2f2f2;
+  margin: 0;
 }
 
 .header_container {
@@ -32,8 +32,10 @@ li {
 .precalc_info {
   font-family: "Sofia Sans";
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   grid-gap: 20px;
+  padding: 0px;
 }
 
 .precalc_li {
@@ -56,3 +58,81 @@ li {
   font-size: 18px;
   line-height: 1.4em;
 }
+
+.precalc_li:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.02);
+}
+
+.calc_container {
+  margin-top: 45px;
+  grid-template-columns: 580px 580px;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 20px;
+  grid-auto-rows: minmax(100px,);
+}
+
+.calc_content,
+.calc_dop_content {
+  font-family: "Sofia Sans";
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 25px;
+}
+
+
+.basic_input {
+  font-size: 14px;
+  padding: 10px 66px 10px 14px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 14px;
+  margin-top: -50px;
+}
+
+
+.button-26 {
+  appearance: button;
+  background-color: #ee1750;
+  border: 1px solid #ee1750;
+  border-radius: 14px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 94px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button-26:disabled {
+  opacity: .5;
+}
+
+.button-26:focus {
+  outline: 0;
+}
+
+.button-26:hover {
+  background-color: #ee1750b6;
+  border-color: #ee1750b6;
+}
+/* 
+.button-26:active {
+  background-color: #ee1750;
+  border-color: #ee1750;
+} */
