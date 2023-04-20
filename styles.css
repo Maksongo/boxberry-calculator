@@ -25,10 +25,6 @@ body {
   color: #ee1750;
 }
 
-li {
-  list-style-type: none;
-}
-
 .precalc_info {
   font-family: "Sofia Sans";
   display: flex;
@@ -39,12 +35,13 @@ li {
 }
 
 .precalc_li {
+  list-style-type: none;
   background-color: white;
   border-radius: 30px;
   width: 280px;
   height: 185px;
   line-height: 40px;
-  /* font-size: 30px; */
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.05);
 }
 
 .precalc_number {
@@ -60,7 +57,7 @@ li {
 }
 
 .precalc_li:hover {
-  transition: all 0.1s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.02);
 }
 
@@ -79,6 +76,7 @@ li {
   background-color: white;
   border-radius: 30px;
   padding-left: 25px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.05);
 }
 
 
@@ -95,7 +93,6 @@ li {
 
 
 .button-26 {
-  appearance: button;
   background-color: #ee1750;
   border: 1px solid #ee1750;
   border-radius: 14px;
@@ -131,15 +128,15 @@ li {
   background-color: #ee1750b6;
   border-color: #ee1750b6;
 }
-/* 
+
 .button-26:active {
-  background-color: #ee1750;
-  border-color: #ee1750;
-} */
+  background-color: #a6ce38a1;
+  border-color: #99be33;
+}
 
 input:focus{
   outline:none;
-  border-color: #ee1750;
+  border-color: #99be33;
 }
 
 .weight_input{
