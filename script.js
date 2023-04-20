@@ -5,15 +5,16 @@ const preCalcInfo = document.querySelector('.precalc_info')
 const kekA = document.querySelector('.keka')
 
 calcButton.addEventListener('click', () =>{
-    console.log('hello')
-    calcContainer.style.display = 'none';
-    preCalcInfo.style.display = 'none';
-    kekA.style.display = 'block';
-    boxberry.openOnPage('boxberry_map');
-boxberry.open(callback_function);
+    calcContainer.style.animation = '1.9s hide';
+    preCalcInfo.style.animation = '1.9s hide';
+    calcButton.disabled = true;
+    setTimeout("boxberry.openOnPage('boxberry_map');", 2000);    
+    setTimeout("boxberry.open(callback_function);", 2000);
+    setTimeout("calcContainer.style.display = 'none';", 1900);
+    setTimeout("preCalcInfo.style.display = 'none';", 1900);
+    setTimeout("kekA.style.display = 'block';", 1900);
+
 });
-
-
 
 
 //Описать функцию callback_function, например:

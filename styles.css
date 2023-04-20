@@ -4,11 +4,10 @@
 
 body {
   background-color: #f2f2f2;
-
 }
 
 .keka {
-  animation: 1s show;
+  animation: 1.5s show;
   margin: 0 auto;
   margin-top: -25px;
   padding-top: 25px;
