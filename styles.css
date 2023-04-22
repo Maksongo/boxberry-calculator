@@ -84,6 +84,18 @@ body {
   grid-column-gap: 20px;
 }
 
+.first_city_div img,
+.box_options_div img {
+  width: 7%;
+}
+.first_city_div h2,
+.first_city_div img,
+.box_options_div h2,
+.box_options_div img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .calc_content,
 .calc_dop_content {
   font-family: "Sofia Sans";
@@ -93,27 +105,25 @@ body {
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.05);
 }
 
-
 .basic_input {
   font-size: 14px;
   padding: 10px 10px 10px 14px;
   border-width: 1px;
-  border-color: #CCCCCC;
-  background-color: #FFFFFF;
+  border-color: #cccccc;
+  background-color: #ffffff;
   border-style: solid;
   border-radius: 14px;
   width: 260px;
 }
-
 
 .calcButton {
   background-color: #ee1750;
   border: 1px solid #ee1750;
   border-radius: 14px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  font-family:"Sofia Sans";
+  font-family: "Sofia Sans";
   font-size: 14px;
   line-height: 1.15;
   overflow: visible;
@@ -131,7 +141,7 @@ body {
 }
 
 .calcButton:disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .calcButton:focus {
@@ -148,24 +158,22 @@ body {
   border-color: #99be33;
 }
 
-input:focus{
-  outline:none;
+input:focus {
+  outline: none;
   border-color: #99be33;
 }
 
-.weight_input{
+.weight_input {
   padding: 10px 0px 10px 14px;
-  width:120px;
+  width: 120px;
 }
 
-.gabarit_input{
+.gabarit_input {
   padding: 10px 0px 10px 14px;
-  width:105px;
+  width: 105px;
 }
 
-
-@keyframes 
-show {
+@keyframes show {
   from {
     opacity: 0;
   }
@@ -174,9 +182,7 @@ show {
   }
 }
 
-
-@keyframes 
-hide {
+@keyframes hide {
   from {
     opacity: 1;
   }
