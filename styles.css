@@ -85,13 +85,17 @@ body {
 }
 
 .first_city_div img,
-.box_options_div img {
+.box_options_div img,
+.dop_settings_div img {
   width: 7%;
+  margin-left: 5px;
 }
 .first_city_div h2,
 .first_city_div img,
 .box_options_div h2,
-.box_options_div img {
+.box_options_div img,
+.dop_settings_div h2,
+.dop_settings_div img {
   display: inline-block;
   vertical-align: middle;
 }
