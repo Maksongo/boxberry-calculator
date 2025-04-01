@@ -35,29 +35,29 @@ alert('Отделение работает только по предоплат�
 }
 }
 
-// async function getCity() {
-//   let response = await fetch(
-//     "https://api.boxberry.ru/json.php?token=d6f33e419c16131e5325cbd84d5d6000&method=PointsForParcels"
-//   );
-//   let citiesList = await response.json();
-//   let finalList = [];
-//   for (var n in citiesList) {
-//     finalList.push(citiesList[n].City);
-//   }
-//   console.log(finalList);
-//   return finalList;
-// }
+async function getCity() {
+  let response = await fetch(
+    "https://api.boxberry.ru/json.php?token=1$Vn8ok7JBLVbFmTftfmRie0b1RkTV8fpE&method=PointsForParcels"
+  );
+  let citiesList = await response.json();
+  let finalList = [];
+  for (var n in citiesList) {
+    finalList.push(citiesList[n].City);
+  }
+  console.log(finalList);
+  return finalList;
+}
 
-// getCity().then((list) => {
-//   let selectDL = document.querySelector(".kekeke");
-//   let jopka = '';
+getCity().then((list) => {
+  let selectDL = document.querySelector(".kekeke");
+  let jopka = '';
 
-//   for (var num in list) {
-//     let option = document.createElement("option");
-//     option.value = list[num];
-//     selectDL.appendChild(option);
-//     jopka = selectDL.appendChild(option);
-//   }
-//   console.log(jopka)
-//   return jopka
-// });
+  for (var num in list) {
+    let option = document.createElement("option");
+    option.value = list[num];
+    selectDL.appendChild(option);
+    jopka = selectDL.appendChild(option);
+  }
+  console.log(jopka)
+  return jopka
+});
